@@ -10,7 +10,6 @@ import { DataService } from './data.service';
 import { ProductComponent } from './product/product.component';
 import { MemberComponent } from './member/member.component';
 import { CategoryComponent } from './category/category.component';
-import { AdminComponent } from './admin/admin.component';
 import { LayoutsComponent } from './layouts/layouts.component';
 
 @NgModule({
