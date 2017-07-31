@@ -1,0 +1,28 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">{{title}}</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active">
+           <a routerLink="/product">Product</a>
+      </li>
+      <li>
+      	 <a routerLink="/member">Member</a>
+      </li>
+       <li>
+      	 <a routerLink="/category">Category</a><br>
+      </li>
+      <li>
+         <a href="http://localhost:4200/admin">Admin</a><br>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+   <router-outlet></router-outlet>
+  </div>
+</div>
