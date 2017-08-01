@@ -4,9 +4,13 @@ import { ProductComponent } from './product/product.component';
 import { MemberComponent } from './member/member.component';
 import { CategoryComponent } from './category/category.component';
 import { LayoutsComponent } from './layouts/layouts.component';
-
+import { AboutUsComponent } from './about-us/about-us.component';
 
 const appRoutes: Routes=[
+        {
+        path:'',
+        component:ProductComponent
+        },
         {
         path:'product',
         component:ProductComponent
@@ -18,6 +22,10 @@ const appRoutes: Routes=[
         {
         path:'category',
         component:CategoryComponent
+        },
+        {
+        path:'about-us',
+        component:AboutUsComponent
         },
          {
     	    path: 'admin',
